@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "30426aac-9e41-4940-a688-d9f871b6c6e7",
+		"name": "Auth API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38407290",
+		"_collection_link": "https://g25555.postman.co/workspace/G6-GEOCACHER~e5082d88-1551-47ed-b93e-c1239be01372/collection/38407290-30426aac-9e41-4940-a688-d9f871b6c6e7?action=share&source=collection_link&creator=38407290"
+	},
+	"item": [
+		{
+			"name": "Generar Token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": 2\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8082/auth/generate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"auth",
+						"generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Validar Token",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "MGQwZTI1NzEtZWU5NS00OTAyLWFhOWItYTFkZGU0MDRiNTViOjE3Mzk5ODA5Njg3NjI=",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/auth/validate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"auth",
+						"validate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,875 @@
+{
+	"info": {
+		"_postman_id": "aa379255-c05f-41da-8db1-f8563db7b305",
+		"name": "G6",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38407290",
+		"_collection_link": "https://g25555.postman.co/workspace/G6-GEOCACHER~e5082d88-1551-47ed-b93e-c1239be01372/collection/38407290-aa379255-c05f-41da-8db1-f8563db7b305?action=share&source=collection_link&creator=38407290"
+	},
+	"item": [
+		{
+			"name": "/usuario",
+			"item": [
+				{
+					"name": "/login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"usuario1@example.com\",\n    \"pass\": \"pass1234\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/usuario",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/usuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/usuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"Roberto\",\n    \"pass\": \"123\",\n    \"rol\":1,\n    \"estado\": 1,\n    \"nombre\": \"Roberto\",\n    \"email\": \"roberto\",\n    \"foto_perfil\": \"foto\",\n    \"fecha_registro\": \"12/12/2004\",\n    \"biografia\": \"biografia\"\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/usuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/usuario/{id}",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/usuario/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuario",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/usuario/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"Maria\",\n    \"pass\": 1,\n    \"rol\":1,\n    \"estado\": 1,\n    \"nombre\": \"Maria\",\n    \"email\": \"maria@gmail.com\",\n    \"foto_perfil\": \"foto\",\n    \"fecha_registro\": \"12/12/2004\",\n    \"biografia\": \"biografia\"\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/usuario/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuario",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/usuario/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/usuario/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuario",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/usuario/{id}/artefacte/{id}",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/usuario/1/artefacto/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuario",
+								"1",
+								"artefacto",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/usuario/{id}/artefacte/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/usuario/1/artefacto/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuario",
+								"1",
+								"artefacto",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/usuario/{id}/artefacte/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/usuario/1/artefacto/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuario",
+								"1",
+								"artefacto",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/usuario/search?text=",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/usuario/search?text=biografia",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuario",
+								"search"
+							],
+							"query": [
+								{
+									"key": "text",
+									"value": "biografia"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/usuario/{id}/artefacto/search?text=",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/usuario/1/artefacto/search?text=Artefacto",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuario",
+								"1",
+								"artefacto",
+								"search"
+							],
+							"query": [
+								{
+									"key": "text",
+									"value": "Artefacto"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/usuario/cargarDatos",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/usuario/cargarDatos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuario",
+								"cargarDatos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/usuario/artefacto/cargarDatos",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/usuario/artefacto/cargarDatos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuario",
+								"artefacto",
+								"cargarDatos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "/ubicacion",
+			"item": [
+				{
+					"name": "/ubicacion",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ubicacion",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ubicacion"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/ubicacion",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nombre\": \"Pic Verdaguer\",\n    \"descripcion\": \"Pallars Sobirà, Arieja\",\n    \"estado\": \"0\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/ubicacion",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ubicacion"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/ubicacion/{id}",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/ubicacion/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ubicacion",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/ubicacion/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nombre\": \"Pic Verdaguer\",\n    \"descripcion\": \"Pallars Sobirà, Arieja\",\n    \"estado\": \"1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/ubicacion/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ubicacion",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/ubicacion/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ubicacion/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ubicacion",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/ubicacion/{id}/artefacte/{id}",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ubicacion/3/artefacte/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ubicacion",
+								"3",
+								"artefacte",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/ubicacion/{id}/artefacte/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id_artefacto\": 2,\n    \"id_ubicacion\": 2\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/ubicacion/3/artefacte/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ubicacion",
+								"3",
+								"artefacte",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/ubicacion/{id}/artefacte/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ubicacion/3/artefacte/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ubicacion",
+								"3",
+								"artefacte",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/ubicacion/search",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/ubicacion/search?text=pic",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ubicacion",
+								"search"
+							],
+							"query": [
+								{
+									"key": "text",
+									"value": "pic"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/ubicacion/{id}/artefacte/search",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/ubicacion/2/artefacte/search?text=artefacto",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ubicacion",
+								"2",
+								"artefacte",
+								"search"
+							],
+							"query": [
+								{
+									"key": "text",
+									"value": "artefacto"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubicacion/cargarDatos",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ubicacion/cargarDatos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ubicacion",
+								"cargarDatos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "/artefacto",
+			"item": [
+				{
+					"name": "/artefacto",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/artefacto",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"artefacto"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/artefacto",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nombre\": \"Artefacto\",\n    \"descripcion\": \"Artefacto 1\",\n    \"id_ubicacion\": {\n        \"id\": 1\n    },\n    \"estado\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/artefacto",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"artefacto"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/artefacto/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/artefacto/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"artefacto",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/artefacto/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nombre\": \"Artefacto\",\n    \"descripcion\": \"Artefacto 1\",\n    \"id_ubicacion\": {\n        \"id\": 1\n    },\n    \"estado\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/artefacto/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"artefacto",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/artefacto/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/artefacto/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"artefacto",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/artefacto/search?text=",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/artefacto/search?text=Arte",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"artefacto",
+								"search"
+							],
+							"query": [
+								{
+									"key": "text",
+									"value": "Arte"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/artefacto/cargarDatos",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nombre\": \"Artefacto\",\n    \"descripcion\": \"Artefacto 1\",\n    \"id_ubicacion\": {\n        \"id\": 1\n    },\n    \"estado\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/artefacto/cargarDatos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"artefacto",
+								"cargarDatos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

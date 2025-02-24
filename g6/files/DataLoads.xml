@@ -1,0 +1,568 @@
+<GeocacherData>
+    <Usuarios>
+        <Usuario>
+            <id>1</id>
+            <biografia>Explorador urbano con interés en descubrir artefactos históricos.</biografia>
+            <email>usuario1@example.com</email>
+            <fecha>2025-01-01</fecha>
+            <nombre>Usuario Uno</nombre>
+            <pass>pass1234</pass>
+            <rol>0</rol>
+            <username>user1</username>
+        </Usuario>
+        <Usuario>
+            <id>2</id>
+            <biografia>Amante de los desafíos y descubrimientos al aire libre.</biografia>
+            <email>usuario2@example.com</email>
+            <fecha>2025-01-02</fecha>
+            <nombre>Usuario Dos</nombre>
+            <pass>pass2345</pass>
+            <rol>0</rol>
+            <username>user2</username>
+        </Usuario>
+        <Usuario>
+            <id>3</id>
+            <biografia>Aventurero en busca de secretos históricos.</biografia>
+            <email>usuario3@example.com</email>
+            <fecha>2025-01-03</fecha>
+            <nombre>Usuario Tres</nombre>
+            <pass>pass3456</pass>
+            <rol>0</rol>
+            <username>user3</username>
+        </Usuario>
+        <Usuario>
+            <id>4</id>
+            <biografia>Amante de la naturaleza y la exploración geográfica.</biografia>
+            <email>usuario4@example.com</email>
+            <fecha>2025-01-04</fecha>
+            <nombre>Usuario Cuatro</nombre>
+            <pass>pass4567</pass>
+            <rol>0</rol>
+            <username>user4</username>
+        </Usuario>
+        <Usuario>
+            <id>5</id>
+            <biografia>Curioso por explorar cuevas y ruinas históricas.</biografia>
+            <email>usuario5@example.com</email>
+            <fecha>2025-01-05</fecha>
+            <nombre>Usuario Cinco</nombre>
+            <pass>pass5678</pass>
+            <rol>0</rol>
+            <username>user5</username>
+        </Usuario>
+        <Usuario>
+            <id>6</id>
+            <biografia>Descubridor de tesoros y mapas antiguos.</biografia>
+            <email>usuario6@example.com</email>
+            <fecha>2025-01-06</fecha>
+            <nombre>Usuario Seis</nombre>
+            <pass>pass6789</pass>
+            <rol>0</rol>
+            <username>user6</username>
+        </Usuario>
+        <Usuario>
+            <id>7</id>
+            <biografia>Fanático de la arqueología y la historia antigua.</biografia>
+            <email>usuario7@example.com</email>
+            <fecha>2025-01-07</fecha>
+            <nombre>Usuario Siete</nombre>
+            <pass>pass7890</pass>
+            <rol>0</rol>
+            <username>user7</username>
+        </Usuario>
+        <Usuario>
+            <id>8</id>
+            <biografia>Entusiasta de la exploración geográfica y cultural.</biografia>
+            <email>usuario8@example.com</email>
+            <fecha>2025-01-08</fecha>
+            <nombre>Usuario Ocho</nombre>
+            <pass>pass8901</pass>
+            <rol>0</rol>
+            <username>user8</username>
+        </Usuario>
+        <Usuario>
+            <id>9</id>
+            <biografia>Explorador de paisajes naturales y ciudades abandonadas.</biografia>
+            <email>usuario9@example.com</email>
+            <fecha>2025-01-09</fecha>
+            <nombre>Usuario Nueve</nombre>
+            <pass>pass9012</pass>
+            <rol>0</rol>
+            <username>user9</username>
+        </Usuario>
+        <Usuario>
+            <id>10</id>
+            <biografia>Arqueólogo aficionado con pasión por la historia.</biografia>
+            <email>usuario10@example.com</email>
+            <fecha>2025-01-10</fecha>
+            <nombre>Usuario Diez</nombre>
+            <pass>pass0123</pass>
+            <rol>0</rol>
+            <username>user10</username>
+        </Usuario>
+        <Usuario>
+            <id>11</id>
+            <biografia>Explorador experto en artefactos culturales y misterios.</biografia>
+            <email>usuario11@example.com</email>
+            <fecha>2025-01-20</fecha>
+            <nombre>Usuario Veinte</nombre>
+            <pass>pass3456</pass>
+            <rol>1</rol>
+            <username>user20</username>
+        </Usuario>
+        <Usuario>
+            <id>12</id>
+            <biografia>Aventurero que combina arqueología y fotografía.</biografia>
+            <email>usuario12@example.com</email>
+            <fecha>2025-01-11</fecha>
+            <nombre>Usuario Doce</nombre>
+            <pass>pass1234</pass>
+            <rol>0</rol>
+            <username>user12</username>
+        </Usuario>
+        <Usuario>
+            <id>13</id>
+            <biografia>Fanático de las expediciones submarinas.</biografia>
+            <email>usuario13@example.com</email>
+            <fecha>2025-01-12</fecha>
+            <nombre>Usuario Trece</nombre>
+            <pass>pass2345</pass>
+            <rol>0</rol>
+            <username>user13</username>
+        </Usuario>
+        <Usuario>
+            <id>14</id>
+            <biografia>Historiador aficionado con interés en mapas antiguos.</biografia>
+            <email>usuario14@example.com</email>
+            <fecha>2025-01-13</fecha>
+            <nombre>Usuario Catorce</nombre>
+            <pass>pass3456</pass>
+            <rol>0</rol>
+            <username>user14</username>
+        </Usuario>
+        <Usuario>
+            <id>15</id>
+            <biografia>Entusiasta de las ruinas históricas y la cartografía.</biografia>
+            <email>usuario15@example.com</email>
+            <fecha>2025-01-14</fecha>
+            <nombre>Usuario Quince</nombre>
+            <pass>pass4567</pass>
+            <rol>0</rol>
+            <username>user15</username>
+        </Usuario>
+        <Usuario>
+            <id>16</id>
+            <biografia>Amante de los misterios arqueológicos.</biografia>
+            <email>usuario16@example.com</email>
+            <fecha>2025-01-15</fecha>
+            <nombre>Usuario Dieciséis</nombre>
+            <pass>pass5678</pass>
+            <rol>0</rol>
+            <username>user16</username>
+        </Usuario>
+        <Usuario>
+            <id>17</id>
+            <biografia>Investigador de culturas antiguas y su legado.</biografia>
+            <email>usuario17@example.com</email>
+            <fecha>2025-01-16</fecha>
+            <nombre>Usuario Diecisiete</nombre>
+            <pass>pass6789</pass>
+            <rol>0</rol>
+            <username>user17</username>
+        </Usuario>
+        <Usuario>
+            <id>18</id>
+            <biografia>Explorador con pasión por las culturas indígenas.</biografia>
+            <email>usuario18@example.com</email>
+            <fecha>2025-01-17</fecha>
+            <nombre>Usuario Dieciocho</nombre>
+            <pass>pass7890</pass>
+            <rol>0</rol>
+            <username>user18</username>
+        </Usuario>
+        <Usuario>
+            <id>19</id>
+            <biografia>Experto en civilizaciones antiguas y su arte.</biografia>
+            <email>usuario19@example.com</email>
+            <fecha>2025-01-18</fecha>
+            <nombre>Usuario Diecinueve</nombre>
+            <pass>pass8901</pass>
+            <rol>0</rol>
+            <username>user19</username>
+        </Usuario>
+        <Usuario>
+            <id>20</id>
+            <biografia>Explorador experto en artefactos culturales y misterios.</biografia>
+            <email>usuario20@example.com</email>
+            <fecha>2025-01-19</fecha>
+            <nombre>Usuario Veinte</nombre>
+            <pass>pass9012</pass>
+            <rol>1</rol>
+            <username>user20</username>
+        </Usuario>
+    </Usuarios>
+    <Ubicaciones>
+        <Ubicacion>
+            <id>1</id>
+            <desc>L'IES Escola del Treball de Barcelona és un institut d'educació secundària ubicat al recinte de l'Escola Industrial, a l'antiga fàbrica Can Batlló del carrer Urgell de Barcelona.</desc>
+            <nombre>Escola del Treball</nombre>
+        </Ubicacion>
+        <Ubicacion>
+            <id>2</id>
+            <desc>Fue llamada en honor de José María Urquinaona y Bidot, obispo de Barcelona desde 1878 hasta 1883. </desc>
+            <nombre>Plaza Urquinaona</nombre>
+        </Ubicacion>
+        <Ubicacion>
+            <id>3</id>
+            <desc>És una céntrica plaza de Barcelona, uno de los centros neurálgicos de la ciudad. Tiene una superficie de 5 hectáreas.​</desc>
+            <nombre>Plaza Cataluña</nombre>
+        </Ubicacion>
+        <Ubicacion>
+            <id>4</id>
+            <desc>És una universidad pública española con sede en la ciudad de Barcelona.</desc>
+            <nombre>Universidad de Barcelona</nombre>
+        </Ubicacion>
+        <Ubicacion>
+            <id>5</id>
+            <desc>Antiguamente era conocido como parque del Matadero, porque en sus terrenos se hallaba el antiguo Matadero Municipal.</desc>
+            <nombre>Parque de Joan Miró</nombre>
+        </Ubicacion>
+        <Ubicacion>
+            <id>6</id>
+            <desc>La plaza de los Países Catalanes es una plaza de Barcelona situada frente a la estación de Sants, en el barrio de Sants.</desc>
+            <nombre>Plaza de los Países Catalanes</nombre>
+        </Ubicacion>
+        <Ubicacion>
+            <id>7</id>
+            <desc>Uno de los mercados más emblemáticos de Barcelona, conocido por su gran variedad de productos frescos y su vibrante ambiente.</desc>
+            <nombre>Mercado de La Boquería</nombre>
+        </Ubicacion>
+        <Ubicacion>
+            <id>8</id>
+            <desc>Famoso bulevar que conecta la Plaza de Cataluña con el Mirador de Colón, lleno de tiendas, artistas callejeros y restaurantes.</desc>
+            <nombre>La Rambla</nombre>
+        </Ubicacion>
+        <Ubicacion>
+            <id>9</id>
+            <desc>Antiguo barrio judío de Barcelona, caracterizado por sus estrechas calles medievales y su historia fascinante.</desc>
+            <nombre>Barrio Gótico</nombre>
+        </Ubicacion>
+        <Ubicacion>
+            <id>10</id>
+            <desc>Una de las basílicas más emblemáticas de Barcelona, con una impresionante fachada neogótica y una gran historia detrás.</desc>
+            <nombre>Basílica de Santa María del Mar</nombre>
+        </Ubicacion>
+        <Ubicacion>
+            <id>11</id>
+            <desc>Un impresionante arco de triunfo construido como entrada principal de la Exposición Universal de 1888 en Barcelona.</desc>
+            <nombre>Arco de Triunfo</nombre>
+        </Ubicacion>
+        <Ubicacion>
+            <id>12</id>
+            <desc>Uno de los parques más bonitos de Barcelona, hogar del zoológico de la ciudad y de la famosa Cascada Monumental.</desc>
+            <nombre>Parque de la Ciutadella</nombre>
+        </Ubicacion>
+        <Ubicacion>
+            <id>13</id>
+            <desc>Una de las avenidas más exclusivas de la ciudad, donde se encuentran edificios modernistas y tiendas de lujo.</desc>
+            <nombre>Paseo de Gracia</nombre>
+        </Ubicacion>
+        <Ubicacion>
+            <id>14</id>
+            <desc>Famosa casa diseñada por Antoni Gaudí, reconocida por su original fachada ondulada y su tejado en forma de escamas.</desc>
+            <nombre>Casa Batlló</nombre>
+        </Ubicacion>
+        <Ubicacion>
+            <id>15</id>
+            <desc>Otra obra maestra de Gaudí, declarada Patrimonio de la Humanidad por la UNESCO, con su imponente estructura y detalles únicos.</desc>
+            <nombre>La Pedrera - Casa Milà</nombre>
+        </Ubicacion>
+    </Ubicaciones>
+    <Artefactos>
+        <Artefacto>
+            <id>1</id>
+            <desc>La Poké Ball definitiva. Captura cualquier Pokémon salvaje y no falla nunca.</desc>
+            <nombre>Master Ball</nombre>
+            <ubicacion>1</ubicacion>
+            <latitude>41.38882276209219</latitude>
+            <longitude>2.147943729246591</longitude>
+            <enlace>https://images.wikidexcdn.net/mwuploads/wikidex/thumb/e/eb/latest/20230115164446/Master_Ball_EP.png/32px-Master_Ball_EP.png</enlace>
+            <Usuarios>
+                <Usuario>
+                    <id>1</id>
+                    <fecha>2025-01-15</fecha>
+                </Usuario>
+                <Usuario>
+                    <id>5</id>
+                    <fecha>2025-01-17</fecha>
+                </Usuario>
+                <Usuario>
+                    <id>2</id>
+                    <fecha>2025-01-19</fecha>
+                </Usuario>
+                <Usuario>
+                    <id>3</id>
+                    <fecha>2025-01-12</fecha>
+                </Usuario>
+            </Usuarios>
+        </Artefacto>
+        <Artefacto>
+            <id>2</id>
+            <desc>Poké Ball de rendimiento superior. Tiene un índice de captura mayor al de la Super Ball.</desc>
+            <nombre>Ultra Ball</nombre>
+            <ubicacion>2</ubicacion>
+            <latitude>41.389249483829545</latitude>
+            <longitude>2.173092216321547</longitude>
+            <enlace>https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/9f/latest/20230115164434/Ultra_Ball_EP.png/32px-Ultra_Ball_EP.png</enlace>
+            <Usuarios>
+                <Usuario>
+                    <id>8</id>
+                    <fecha>2025-01-20</fecha>
+                </Usuario>
+            </Usuarios>
+        </Artefacto>
+        <Artefacto>
+            <id>3</id>
+            <desc>Poké Ball de alto rendimiento. Tiene un índice de captura superior al de la Poké Ball</desc>
+            <nombre>Super Ball</nombre>
+            <ubicacion>3</ubicacion>
+            <latitude>41.38627938821831</latitude>
+            <longitude>2.170091261985512</longitude>
+            <enlace>https://images.wikidexcdn.net/mwuploads/wikidex/thumb/3/3f/latest/20230115164421/Super_Ball_EP.png/32px-Super_Ball_EP.png</enlace>
+            <Usuarios>
+                <Usuario>
+                    <id>9</id>
+                    <fecha>2025-01-14</fecha>
+                </Usuario>
+            </Usuarios>
+        </Artefacto>
+        <Artefacto>
+            <id>4</id>
+            <desc>Dispositivo con diseño capsular que captura Pokémon salvajes. Se lanza como una bola contra el blanco</desc>
+            <nombre>Poké Ball</nombre>
+            <ubicacion>4</ubicacion>
+            <latitude>41.38655873519778</latitude>
+            <longitude>2.1640272698575727</longitude>
+            <enlace>https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/6a/latest/20230115164405/Pok%C3%A9_Ball_EP.png/32px-Pok%C3%A9_Ball_EP.png</enlace>
+            <Usuarios>
+                <Usuario>
+                    <id>4</id>
+                    <fecha>2025-01-11</fecha>
+                </Usuario>
+                <Usuario>
+                    <id>10</id>
+                    <fecha>2025-01-15</fecha>
+                </Usuario>
+            </Usuarios>
+        </Artefacto>
+        <Artefacto>
+            <id>5</id>
+            <desc>Poké Ball especial utilizada en lugares como la Zona Safari de Kanto y el Gran Pantano de Sinnoh.</desc>
+            <nombre>Safari Ball</nombre>
+            <ubicacion>5</ubicacion>
+            <latitude>41.37855754340631</latitude>
+            <longitude>2.148392421547423</longitude>
+            <enlace>https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/47/latest/20230115164921/Safari_Ball_EP.png/32px-Safari_Ball_EP.png</enlace>
+            <Usuarios>
+                <Usuario>
+                    <id>6</id>
+                    <fecha>2025-01-10</fecha>
+                </Usuario>
+                <Usuario>
+                    <id>11</id>
+                    <fecha>2025-01-21</fecha>
+                </Usuario>
+                <Usuario>
+                    <id>15</id>
+                    <fecha>2025-01-18</fecha>
+                </Usuario>
+            </Usuarios>
+        </Artefacto>
+        <Artefacto>
+            <id>6</id>
+            <desc>Poké Ball algo distinta a las demás que funciona especialmente bien con los Pokémon de tipo agua y bicho.</desc>
+            <nombre>Malla Ball</nombre>
+            <ubicacion>6</ubicacion>
+            <latitude>41.38026957621032</latitude>
+            <longitude>2.141485128189983</longitude>
+            <enlace>https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/89/latest/20230115164932/Malla_Ball_EP.png/32px-Malla_Ball_EP.png</enlace>
+            <Usuarios>
+                <Usuario>
+                    <id>7</id>
+                    <fecha>2025-01-16</fecha>
+                </Usuario>
+            </Usuarios>
+        </Artefacto>
+        <Artefacto>
+            <id>7</id>
+            <desc>Poké Ball algo distinta a las demás que funciona especialmente bien con los Pokémon que viven en el agua.</desc>
+            <nombre>Buceo Ball</nombre>
+            <ubicacion>7</ubicacion>
+            <latitude>41.381807</latitude>
+            <longitude>2.171916</longitude>
+            <enlace>https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/0c/latest/20230115164943/Buceo_Ball_EP.png/32px-Buceo_Ball_EP.png</enlace>
+            <Usuarios>
+                <Usuario>
+                    <id>8</id>
+                    <fecha>2025-01-22</fecha>
+                </Usuario>
+                <Usuario>
+                    <id>13</id>
+                    <fecha>2025-01-25</fecha>
+                </Usuario>
+            </Usuarios>
+        </Artefacto>
+        <Artefacto>
+            <id>8</id>
+            <desc>Poké Ball algo distinta a las demás que funciona especialmente bien con los Pokémon salvajes de nivel bajo.</desc>
+            <nombre>Nido Ball</nombre>
+            <ubicacion>8</ubicacion>
+            <latitude>41.379051</latitude>
+            <longitude>2.173252</longitude>
+            <enlace>https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/4a/latest/20230115164954/Nido_Ball_EP.png/32px-Nido_Ball_EP.png</enlace>
+            <Usuarios>
+                <Usuario>
+                    <id>9</id>
+                    <fecha>2025-01-18</fecha>
+                </Usuario>º
+                <Usuario>
+                    <id>16</id>
+                    <fecha>2025-01-23</fecha>
+                </Usuario>
+                <Usuario>
+                    <id>14</id>
+                    <fecha>2025-01-19</fecha>
+                </Usuario>
+            </Usuarios>
+        </Artefacto>
+        <Artefacto>
+            <id>9</id>
+            <desc>Poké Ball algo distinta a las demás ya que funciona especialmente bien con las especies de Pokémon ya capturadas.</desc>
+            <nombre>Acopio Ball</nombre>
+            <ubicacion>9</ubicacion>
+            <latitude>41.383049</latitude>
+            <longitude>2.176352</longitude>
+            <enlace>https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/b9/latest/20230115165033/Acopio_Ball_EP.png/32px-Acopio_Ball_EP.png</enlace>
+            <Usuarios>
+                <Usuario>
+                    <id>10</id>
+                    <fecha>2025-01-14</fecha>
+                </Usuario>
+            </Usuarios>
+        </Artefacto>
+        <Artefacto>
+            <id>10</id>
+            <desc>Poké Ball algo distinta que va mejorando su rendimiento con cada turno de combate.</desc>
+            <nombre>Turno Ball</nombre>
+            <ubicacion>10</ubicacion>
+            <latitude>41.383131</latitude>
+            <longitude>2.182271</longitude>
+            <enlace>https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/83/latest/20230115165045/Turno_Ball_EP.png/32px-Turno_Ball_EP.png</enlace>
+            <Usuarios>
+                <Usuario>
+                    <id>17</id>
+                    <fecha>2025-01-15</fecha>
+                </Usuario>
+                <Usuario>
+                    <id>18</id>
+                    <fecha>2025-01-20</fecha>
+                </Usuario>
+            </Usuarios>
+        </Artefacto>
+        <Artefacto>
+            <id>11</id>
+            <desc>Poké Ball acogedora que hace que los Pokémon salvajes capturados se vuelvan amistosos más rápido.</desc>
+            <nombre>Lujo Ball</nombre>
+            <ubicacion>11</ubicacion>
+            <latitude>41.391250</latitude>
+            <longitude>2.180071</longitude>
+            <enlace>https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/f3/latest/20230115165058/Lujo_Ball_EP.png/32px-Lujo_Ball_EP.png</enlace>
+            <Usuarios>
+                <Usuario>
+                    <id>11</id>
+                    <fecha>2025-01-16</fecha>
+                </Usuario>
+                <Usuario>
+                    <id>20</id>
+                    <fecha>2025-01-23</fecha>
+                </Usuario>
+                <Usuario>
+                    <id>19</id>
+                    <fecha>2025-01-22</fecha>
+                </Usuario>
+            </Usuarios>
+        </Artefacto>
+        <Artefacto>
+            <id>12</id>
+            <desc>Poké Ball algo singular que se creó para conmemorar algún acontecimiento.</desc>
+            <nombre>Honor Ball</nombre>
+            <ubicacion>12</ubicacion>
+            <latitude>41.387001</latitude>
+            <longitude>2.187374</longitude>
+            <enlace>https://images.wikidexcdn.net/mwuploads/wikidex/thumb/e/ea/latest/20230115165123/Honor_Ball_EP.png/32px-Honor_Ball_EP.png</enlace>
+            <Usuarios>
+                <Usuario>
+                    <id>12</id>
+                    <fecha>2025-01-17</fecha>
+                </Usuario>
+            </Usuarios>
+        </Artefacto>
+        <Artefacto>
+            <id>13</id>
+            <desc>Poké Ball algo distinta a las demás especialmente indicada para capturar Pokémon salvajes por la noche o en lugares oscuros.</desc>
+            <nombre>Ocaso Ball</nombre>
+            <ubicacion>1</ubicacion>
+            <latitude>41.38882276209219</latitude>
+            <longitude>2.147943729246591</longitude>
+            <enlace>https://images.wikidexcdn.net/mwuploads/wikidex/thumb/3/36/latest/20230115165134/Ocaso_Ball_EP.png/32px-Ocaso_Ball_EP.png</enlace>
+            <Usuarios>
+                <Usuario>
+                    <id>2</id>
+                    <fecha>2025-01-21</fecha>
+                </Usuario>
+                <Usuario>
+                    <id>5</id>
+                    <fecha>2025-01-25</fecha>
+                </Usuario>
+                <Usuario>
+                    <id>3</id>
+                    <fecha>2025-01-19</fecha>
+                </Usuario>
+                <Usuario>
+                    <id>9</id>
+                    <fecha>2025-01-22</fecha>
+                </Usuario>
+            </Usuarios>
+        </Artefacto>
+        <Artefacto>
+            <id>14</id>
+            <desc>Poké Ball curativa que restaura los PS y cura todos los problemas de estado de un Pokémon después de capturarlo..</desc>
+            <nombre>Sana Ball</nombre>
+            <ubicacion>1</ubicacion>
+            <latitude>41.38882276209219</latitude>
+            <longitude>2.147943729246591</longitude>
+            <enlace>https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/08/latest/20230115165144/Sana_Ball_EP.png/32px-Sana_Ball_EP.png</enlace>
+            <Usuarios>
+            </Usuarios>
+        </Artefacto>
+        <Artefacto>
+            <id>15</id>
+            <desc>Poké Ball algo distinta a las demás cuyo índice de captura es mayor si se usa al inicio de un encuentro con Pokémon salvajes.</desc>
+            <nombre>Veloz Ball</nombre>
+            <ubicacion>13</ubicacion>
+            <latitude>41.391653</latitude>
+            <longitude>2.164974</longitude>
+            <enlace>https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/b5/latest/20230115165155/Veloz_Ball_EP.png/32px-Veloz_Ball_EP.png</enlace>
+            <Usuarios>
+                <Usuario>
+                    <id>14</id>
+                    <fecha>2025-01-13</fecha>
+                </Usuario>
+                <Usuario>
+                    <id>18</id>
+                    <fecha>2025-01-24</fecha>
+                </Usuario>
+            </Usuarios>
+        </Artefacto>
+    </Artefactos>
+</GeocacherData>
